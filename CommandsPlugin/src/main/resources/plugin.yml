@@ -1,0 +1,16 @@
+name: PluginInstance
+version: '${project.version}'
+main: me.swastik.commands.PluginInstance
+api-version: 1.18
+commands:
+  die:
+    description: An easy way to end your misery in game.
+    usage: /<command>
+  feed:
+    description: An easy way to replenish your hunger.
+    usage: /<command>
+  fly:
+      description: Allows you to fly in the map.
+      usage: /<command>
+authors: [ Sharpeyy ]
+description: This plugin defines the basic useful commands that can be accessed within a multiplayer minecraft server.
